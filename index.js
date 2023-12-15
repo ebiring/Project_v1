@@ -4,10 +4,10 @@ const { Client, GatewayIntentBits } = require("discord.js");
 
 const client = new Client({
   intents: [
-    GatewayIntentBits.Guilds, 
+    GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent // If you need to access message content
-  ]
+    GatewayIntentBits.MessageContent, // If you need to access message content
+  ],
 });
 
 client.once("ready", () => {

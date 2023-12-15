@@ -1,0 +1,26 @@
+{
+  "name": "project_v1",
+  "version": "1.0.0",
+  "description": "discord bot ebiring",
+  "main": "index.js",
+  "scripts": {
+    "test": "!help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebiring/project_v1.git"
+  },
+  "keywords": [
+    "discord-bot"
+  ],
+  "author": "ebiring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebiring/project_v1/issues"
+  },
+  "homepage": "https://github.com/ebiring/project_v1#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
